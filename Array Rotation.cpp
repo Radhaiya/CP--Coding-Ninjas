@@ -10,7 +10,7 @@ void rotateArray(int arr[], int n, int k) {
 
         arr[n - 1] = temp;
     }
-
+// there is an issue
     for (int i = 0; i < n; i++)
         cout << arr[i] << " ";
 }
